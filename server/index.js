@@ -55,3 +55,4 @@ app.post('/api/recipe', async (req, res) => {
 
 const PORT = process.env.PORT;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+module.exports = app;
